@@ -26,7 +26,7 @@ typedef struct binary_tree_s
 	struct binary_tree_s *left;
 	struct binary_tree_s *right;
 
-} binary_tree_t;
+} binary_tree_t, bst_t, heap_t, avl_t;
 
 /* Prototypes */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
